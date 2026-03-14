@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration:none;
+}
+
+/*style navbar*/
+
+.navbar{
+    display:flex;
+    background-color:blanchedalmond;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.logo{
+    border-left: solid black 2px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo a{
+    margin-left: 10px;
+}
+
+.select-navbar{
+    border
+}
