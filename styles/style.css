@@ -2,29 +2,74 @@
     padding: 0;
     margin: 0;
     text-decoration:none;
+    font-family: 'Geologica', sans-serif;
 }
 
 /*style navbar*/
 
 .navbar{
     display:flex;
-    background-color:blanchedalmond;
+    background-color:rgba(180, 13, 13, 0.056);
     justify-content: space-around;
     align-items: center;
     height: 50px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .logo{
-    border-left: solid black 2px;
+    border-left: dotted white 2px;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: center;;
 }
 
 .logo a{
-    margin-left: 10px;
+    margin-left: 12px;
+    color: white;
 }
 
 .select-navbar{
-    border
+    border-right: dotted white 2px;
+    height: 100%;
+    display:flex;
 }
+
+.select-navbar select{
+    margin-right: 12px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+select option{
+    background-color: transparent;
+    color:white
+}
+
+/*contenedor principal*/
+
+.container-principal{
+    background-color: black;
+    height: 100vh;
+    position: static;
+}
+
+/*cards*/
+
+.container-card{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-presentacion{
+    color: white;
+    display: flex;
+    font-weight:800;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
