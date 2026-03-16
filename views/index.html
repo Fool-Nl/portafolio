@@ -17,6 +17,7 @@
 
 <body>
 
+    
 
     <div class = "container-principal">
         <div class="escena-espacial">
@@ -25,8 +26,7 @@
          <div class="stars3"></div>
         </div>
         
-
-        <div class="navbar">
+                <div class="navbar">
         <div class="logo">
             <a href="">NORO</a>
             <a href="">Product</a>
@@ -41,8 +41,9 @@
                 <option value="option3">Contacto</option>
             </select>
         </div>
-    </div>
-    <div class="container-card">
+     </div>
+
+     <div class="container-card">
         <div class="card-presentacion">
             NORO DEV JUNIOR
             <br>
@@ -54,13 +55,34 @@
                 <img src="../assets/linkedin-brands-solid.png" alt="">
             </div>
         </div>
-        <br>
-    </div>
-    
-    <div class="card-me">
+     </div>
+        <div class="card-me">
+        <div class="card-info">
+            <h1>NORO</h1>
+            DEVELOPER <br>
+            <br>
+            <p>Dev en Front end</p><br>
+            Conocimientos<br>
+            css<br>
+            sass<br>
+            react
+        </div>
 
+        
+        <model-viewer 
+            src="https://modelviewer.dev/shared-assets/models/Astronaut.glb" 
+            alt="Modelo 3D de un astronauta"
+            auto-rotate 
+            camera-controls 
+            ar 
+            shadow-intensity="1">
+        </model-viewer>
+        
+        
     </div>
-
     </div>
 </body>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
 </html>
